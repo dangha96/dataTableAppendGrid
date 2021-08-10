@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Run on Firefox" parallel = "false" >
+
+<!--    <test name="Run on CHROME">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.bankguru.user.Level_06_Browser_Factory"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Run on FIREFOX">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.bankguru.user.Level_04_Page_Object_Pattern"/>
+        </classes>
+    </test>
+
+    <test name="Run on CHROME">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.bankguru.user.Level_04_Page_Object_Pattern"/>
+        </classes>
+    </test>
+
+
+<!--    <test name="Run on HEADLESS FIREFOX">-->
+<!--        <parameter name="browser" value="firefoxheadless"/>-->
+<!--        <classes>-->
+<!--            <class name="com.bankguru.user.Level_05_Handle_Multi_Browser"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Run on HEADLESS CHROME">-->
+<!--        <parameter name="browser" value="chromeheadless"/>-->testNG.xml
+<!--        <classes>-->
+<!--            <class name="com.bankguru.user.Level_05_Handle_Multi_Browser"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

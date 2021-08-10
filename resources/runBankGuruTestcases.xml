@@ -1,0 +1,30 @@
+
+<suite name="Run on Chrome" parallel = "tests" thread-count="2">
+
+    <!--    <test name="Run on CHROME">-->
+    <!--        <parameter name="browser" value="chrome"/>-->
+    <!--        <classes>-->
+    <!--            <class name="com.bankguru.user.Level_06_Browser_Factory"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <test name="Run on FIREFOX">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.bankguru.user.Level_09_Page_Generator"/>
+        </classes></test>
+
+
+    <!--    <test name="Run on HEADLESS FIREFOX">-->
+    <!--        <parameter name="browser" value="firefoxheadless"/>-->
+    <!--        <classes>-->
+    <!--            <class name="com.bankguru.user.Level_05_Handle_Multi_Browser"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <!--    <test name="Run on HEADLESS CHROME">-->
+    <!--        <parameter name="browser" value="chromeheadless"/>-->
+    <!--        <classes>-->
+    <!--            <class name="com.bankguru.user.Level_05_Handle_Multi_Browser"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+</suite>

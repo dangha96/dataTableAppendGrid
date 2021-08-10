@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/buildFrameWork.iml" filepath="$PROJECT_DIR$/buildFrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libWebdriverManager/libWebdriverManager.iml" filepath="$PROJECT_DIR$/libWebdriverManager/libWebdriverManager.iml" />
+    </modules>
+  </component>
+</project>
